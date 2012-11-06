@@ -6,7 +6,7 @@
         var n = mapbox.markers.layer();
         mapbox.markers.interaction(n);
         t.addLayer(n);
-        t.zoom(12).center({
+        t.zoom(15).center({
             lat: 48.36384,
             lon: 10.89593
         });

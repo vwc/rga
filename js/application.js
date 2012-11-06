@@ -23,7 +23,7 @@
         mapbox.markers.interaction(markerLayer);
         map.addLayer(markerLayer);
         
-        map.zoom(12).center({ lat: 48.36384, lon: 10.89593 });
+        map.zoom(15).center({ lat: 48.36384, lon: 10.89593 });
         
         // Add a single feature to the markers layer.
         // You can use .features() to add multiple features.
