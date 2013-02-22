@@ -192,7 +192,7 @@ html {
 body {
   margin: 0;
   color: #333333;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   line-height: 1.5;
@@ -203,7 +203,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
@@ -348,7 +348,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: inherit;
+  font-family: "Yanone Kaffeesatz", inherit;
   font-weight: 500;
   line-height: 20px;
   text-rendering: optimizelegibility;
