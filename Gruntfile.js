@@ -234,7 +234,7 @@ module.exports = function (grunt) {
 
     // Copy jekyll generated templates and rename for diazo
     grunt.registerTask('copy-templates', '', function () {
-        grunt.file.copy('_site/index.html', 'dist/theme.html');
+        grunt.file.copy('_site/index.html', 'dist/index.html');
         grunt.file.copy('_site/signin/index.html', 'dist/signin.html');
     });
 
