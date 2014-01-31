@@ -1,0 +1,42 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    {% include head.html %}
+  </head>
+  <body>
+    <a class="sr-only" href="#content">Skip navigation</a>
+    {% include navbar.html %}
+    {% include brandbar.html %}
+    <div class="app-header">
+      <div class="container text-center">
+          <h1>Was soll das, mit dem &quot;Responsive Web Design&quot;?</h1>
+          <p class="lead">Webdesign: 'Responsive Design' hei&szlig;t &uuml;bersetzt
+            'reagierendes Design'. Das bedeutet, dass sich das Layout einer
+            Webseite automatisch an die Gegebenheiten, wie z.B. die Bildschirmgr&ouml;&szlig;e, anpasst. Eine Webseite,
+            die reagierend gestaltet ist, erkennt also, mit welchem Endger&auml;t und
+            welcher Bildschirmaufl&ouml;sung der Besucher die Seite aufruft und ordnet
+            die Inhalte automatisch so an, dass sie gut lesbar und navigierbar sind.
+          </p>
+          <p class="lead">Hier k&ouml;nnen Sie mit einem Klick testen, wie Ihre eigene Webseite auf den verschiedenen Bildschirmaufl&ouml;sungen aussieht:</p>
+          <p><a class="btn btn-primary btn-lg" href="http://responsive.coraggio.de">Jetzt ausprobieren</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+        <div role="main">
+          {{ content }}
+        </div>
+    </div>
+
+    {% include footer.html %}
+    {% include javascript.html %}
+    <div class="app-js-slot">
+        {% include webfonts.html %}
+    </div>
+
+  </body>
+</html>

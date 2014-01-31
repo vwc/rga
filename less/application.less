@@ -1,0 +1,68 @@
+//
+// Application stylesheet
+// -----------------------------------------------
+
+.app-toolbar + .app-navbar {
+    margin-top: @navbar-height;
+}
+
+.app-header {
+    .jumbotron();
+    h1 {
+        color: @link-color;
+    }
+}
+
+.app-sign {
+    display: inline-block;
+    .square(@navbar-height);
+    padding: ceil(@line-height-computed / 2);
+    border: ceil(@line-height-computed / 4) solid @gray-lighter;
+    border-radius: floor(@navbar-height / 2);
+    color: @gray-lighter;
+    font-size:f loor(@navbar-height / 2);
+    text-align: center;
+    line-height: 1;
+    &.app-sign-large {
+        .square((@navbar-height * 2));
+        padding: @line-height-computed;
+        border-radius: @navbar-height;
+        font-size: @navbar-height;
+    }
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 60px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+  padding-top: 60px; /* Vertically center images part 1: add padding above and below text. */
+  overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+  margin-top: 0px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+  margin-right: 40px;
+}
+.featurette-image.pull-right {
+  margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+#inbox-content {
+  .featurette {
+    padding-top: @line-height-base;
+  }
+}
