@@ -168,8 +168,8 @@ module.exports = function (grunt) {
             },
             'clean-source-css': {
                 path: 'dist/',
-                pattern: '../dist/css/styles.css',
-                replacement: 'css/styles.css',
+                pattern: '../dist/css/rga.css',
+                replacement: 'css/rga.css',
                 recursive: true
             },
             'clean-source-js': {
